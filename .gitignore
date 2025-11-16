@@ -1,0 +1,28 @@
+
+# Virtualenv
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+
+# Local config
+.env
+
+# Data (optional: keep only if you really want them in repo)
+data/raw/
+data/processed/baseline_predictions.jsonl
+data/processed/cleaned_text.jsonl
+data/processed/eval.jsonl
+data/processed/finetuned_predictions.jsonl
+data/processed/train.jsonl
+data/processed/qa_pairs.jsonl
+
+# Model weights & checkpoints
+models/
+
+# Jupyter noise
+.ipynb_checkpoints/
